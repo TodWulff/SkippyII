@@ -13,5 +13,5 @@ if git status | grep -q 'Your branch is behind'; then
 else
 	echo "No changes exist, configs are up to date."
 	echo 'M118 No changes exist, configs are up to date.' > ~/printer_data/comms/klippy.serial
-	say_wait No changes exist, kunfihgs are up to date.
+	say_wait No changes.
 fi

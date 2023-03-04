@@ -1,5 +1,5 @@
 echo "Pushing a config backup."
-say  Pushing a config backup.
+say_wait  Pushing a config backup.
 echo 'M118 Pushing a config backup...' > ~/printer_data/comms/klippy.serial
 
 cd ~/printer_data/config
@@ -9,5 +9,5 @@ git commit -m 'printer event - automated config backup'
 git push
 
 echo "Config backup complete."
-say  Complete.
+say_wait  Complete.
 echo 'M118 ... complete.' > ~/printer_data/comms/klippy.serial

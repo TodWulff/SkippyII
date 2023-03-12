@@ -11,7 +11,7 @@ git fetch && git status
 git add .
 git commit -m $@ 
 git push
-echo "Config backup complete"
+echo "Config backup complete" 
 
 #say  "Config backup complete."
 echo 'M118 Config backup complete.' > ~/printer_data/comms/klippy.serial

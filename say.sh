@@ -26,7 +26,7 @@ pico2wave -l en-US -w ~/temp/temp.wav "$params" > /dev/null 2>&1 &
 # and play the converted speech over the audio system
 cvlc --gain 2 --quiet --play-and-exit ~/temp/temp.wav > /dev/null 2>&1 &
 # ^^^ optional if one favors vlc, or, if you're using aplay (raspbian) the following line works
-# aplay ~/temp/temp.wav > /dev/null 2>&1 &
+# aplay ~/temp/temp.wav > /dev/null 2>&1  &
 
 
 

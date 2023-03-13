@@ -1,8 +1,11 @@
 telegram.conf
 _globals.pvar
 imgs/
-v0.XXXX.twilio_guidance
+*twilio_guidance*
 .twiliorc
 secrets.conf
-shell_command.cfg
+*shell_command*
+*.swp
+*rotate_klipper_userlogs*
+
 
